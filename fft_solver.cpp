@@ -19,17 +19,17 @@ using namespace std;
 // Compile:	g++ -c "%f" -Wall -std=c++11 -lfftw3 -lm
 //   Build: g++ -o "%e" "%f" -Wall -std=c++11 -lfftw3 -lm
 //
-//			-I path						   : include a directory where header files are to be found
-//			-Wall						   : all warnings flag
-//			-o 							   : optimization flag
-// (Geany)	-o "%e" "%f"				   : optimization flag -- Make the execution file with same name as the cpp source file
-// (cmd)	-o exec_name filename.cpp "%f" : optimization flag -- output directed to file %f
+//		-I path						   : include a directory where header files are to be found
+//		-Wall						   : all warnings flag
+//		-o 						   : optimization flag
+// (Geany)	-o "%e" "%f"					   : optimization flag -- Make the execution file with same name as the cpp source file
+// (cmd)	-o exec_name filename.cpp "%f" 			   : optimization flag -- output directed to file %f
 // (Geany)	-c "%f"						   : compilation flag // without -c, everything necessary to compile AND link should be provided
-//			-std=c++11					   : specifies cpp version
-//			-fopenmp					   : uses openmp library
+//		-std=c++11					   : specifies cpp version
+//		-fopenmp					   : uses openmp library
 //
 //	Linkers:
-//			-lm			: math library
+//			-lm		: math library
 //			-lfftw3_omp	: fftw3_omp library
 //			-lfftw3		: fftw3 library
 //
